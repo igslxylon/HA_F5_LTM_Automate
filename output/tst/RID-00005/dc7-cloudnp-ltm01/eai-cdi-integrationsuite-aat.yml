@@ -1,0 +1,14 @@
+tsr_no: RID-00005
+service_type: highport
+is_hadev: true
+partition: Cloud
+pool_monitor: monTcp_OCP4_hadev_eai-cdi-integrationsuite-aat_31332.0_dc7
+pool_name: sp_OCP4_hadev_eai-cdi-integrationsuite-aat_31332.0_dc7
+pool_port: 31332
+pool_member_list: cldinfvmctst72c:31332 cldinfvmctst72d:31332 cldinfvmctst72e:31332 cldinfvmctst72f:31332 cldinfvmctst72g:31332
+vs_name: vs_OCP4_hadev_eai-cdi-integrationsuite-aat_31332.0_dc7
+vip: 160.200.198.217
+vip_port: 80
+snat_pool: snatpool_OCP4_cloudhighportService_dc7
+client_tcp: pTcp_cloudTcpClient_Verified_dc7
+server_tcp: pTcp_cloudTcpServer_dc7
