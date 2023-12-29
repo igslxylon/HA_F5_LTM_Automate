@@ -5,6 +5,7 @@ The program will perform below tasks
    Input: An Excel file path in 1st parameters
    Output: YML Files under Output Folder, default `REL_PATH_OUTPUT_DIR = './output'`
 2. Commit the Output YML Files for related `<tsr_no>` to Github
+3. Commit related ssl cert file to Github if necessary
 ## Python Version
 `3.12`
 ## Quick Start
@@ -30,6 +31,7 @@ GITHUB_TOKEN = '{GITHUB_TOKEN}'
 GITHUB_BASE_URL = 'https://hagithub.home/api/v3'
 ...
 GITHUB_BRANCH_NAME = {GITHUB_BRANCH_NAME}
+SSL_UPLOAD_GITHUB = True
 ...
 ```
 6. Execute Script
