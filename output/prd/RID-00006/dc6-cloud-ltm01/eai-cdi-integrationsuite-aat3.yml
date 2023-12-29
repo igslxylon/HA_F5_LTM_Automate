@@ -1,0 +1,14 @@
+tsr_no: RID-00006
+service_type: highport
+is_hadev: false
+partition: Cloud
+pool_monitor: monTcp_OCP4_eai-cdi-integrationsuite-aat3_31330_dc6
+pool_name: sp_OCP4_eai-cdi-integrationsuite-aat3_31330_dc6
+pool_port: 31330
+pool_member_list: cldinfvmctst70c:31330 cldinfvmctst70d:31330 cldinfvmctst70e:31330
+vs_name: vs_OCP4_eai-cdi-integrationsuite-aat3_31330_dc6
+vip: 160.93.31.41
+vip_port: 80
+snat_pool: snatpool_OCP4_cloudhighportService_dc6
+client_tcp: pTcp_cloudTcpClient_Verified_dc6
+server_tcp: pTcp_cloudTcpServer_dc6
