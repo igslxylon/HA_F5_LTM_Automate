@@ -4,11 +4,11 @@ is_hadev: false
 partition: Cloud
 pool_monitor: monTcp_OCP4_eai-cdi-integrationsuite-aat2_31333_dc7
 pool_name: sp_OCP4_eai-cdi-integrationsuite-aat2_31333_dc7
-pool_port: 31333
+pool_port: '31333'
 pool_member_list: cldinfvmctst71c:31333 cldinfvmctst71d:31333 cldinfvmctst71e:31333 cldinfvmctst71f:31333 cldinfvmctst71g:31333 cldinfvmctst71h:31333 cldinfvmctst71i:31333 cldinfvmctst71j:31333 cldinfvmctst71k:31333
 vs_name: vs_OCP4_eai-cdi-integrationsuite-aat2_31333_dc7
 vip: 160.200.198.169
-vip_port: 80
+vip_port: '80'
 snat_pool: snatpool_OCP4_cloudhighportService_dc7
 client_tcp: pTcp_cloudTcpClient_Verified_dc7
 server_tcp: pTcp_cloudTcpServer_dc7
