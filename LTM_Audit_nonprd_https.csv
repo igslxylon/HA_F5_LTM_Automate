@@ -1,2 +1,3 @@
 tsr_no,service_type,partition,cert_key_name,cert_chain,client_ssl_profile_list,client_ssl_server_list,vs_name,CreatedDate
 RID-xxxxx,https,Cloud,ssl_OCP4_cloudAppRoutercsr1_dc6.2023,,pClientSsl_OCP4_int-pharmacy_route_dc6.2023; pClientSsl_OCP4_int-laboratory_route_dc6.2023,int-pharmacy-ha-dmz-prd.prdcld.ha.org.hk; int-laboratory-ha-dmz-prd.prdcld.ha.org.hk,vs_OCP4_cloudAppRouter_443_dc6,2024-01-19 19:00
+RID-xxxxx,https,Cloud,ssl_OCP4_cloudAppRoutercsr1_dc6.2023,,pClientSsl_OCP4_int-pharmacy_route_dc6.2023; pClientSsl_OCP4_int-laboratory_route_dc6.2023,int-pharmacy-ha-dmz-prd.prdcld.ha.org.hk; int-laboratory-ha-dmz-prd.prdcld.ha.org.hk,vs_OCP4_cloudAppRouter_443_dc6,2024-01-19 19:01
