@@ -1,0 +1,10 @@
+tsr_no: RID-xxxxx
+service_type: https
+partition: Cloud
+cert_key_name: ssl_OCP4_cloudAppRoutercsr1_dc6.2023
+cert_chain_name: ssl_chainHaCa.003.crt
+client_ssl_1_server_name: int-pharmacy-ha-dmz-prd.prdcld.ha.org.hk
+client_ssl_1_profile_name: pClientSsl_OCP4_int-pharmacy_route_dc6.2023
+client_ssl_2_server_name: int-laboratory-ha-dmz-prd.prdcld.ha.org.hk
+client_ssl_2_profile_name: pClientSsl_OCP4_int-laboratory_route_dc6.2023
+vs_name: vs_OCP4_cloudAppRouter_443_dc6
