@@ -51,7 +51,7 @@ GITHUB_TOKEN = '{GITHUB_TOKEN}'
 GITHUB_BASE_URL = 'https://hagithub.home/api/v3'
 ...
 GITHUB_BRANCH_NAME = {GITHUB_BRANCH_NAME}
-SSL_UPLOAD_GITHUB = True
+SSL_UPLOAD_GITHUB = False
 ...
 ```
 6. Execute Script
