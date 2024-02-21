@@ -92,7 +92,10 @@ Sample Result
 ├── <anyname>_<https|highport>_<tst|prd>.xlsx   # Import Excel, with naming including <https|highport>,env <tst|prd>
 ├── LTMTaskAutomate.py                          # File, Main Python File to start the program
 ├── app.log                                     # Log File
-├── LTM_Audit.csv                               # Audit CSV
+├── LTM_Audit_nonprd_highport.csv               # Audit CSV for LTM Highport non-production
+├── LTM_Audit_nonprd_https.csv                  # Audit CSV for LTM HTTPS non-production
+├── LTM_Audit_prd_highport.csv                  # Audit CSV for LTM Highport roduction
+├── LTM_Audit_prd_https.csv                     # Audit CSV for LTM HTTPS production
 └── README.md
 ```
 
