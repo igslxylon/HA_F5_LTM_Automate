@@ -83,8 +83,9 @@ Sample Result
     └── ...         
 ├── output                                      # Destination Folder for Output Ansible variables yml files
     └── <env>                                   # List of Folders, naming with <env>, <tst|prd>
-        └── <tsr_no>                            # List of Folders, naming with <tsr_no>, e.g. 'RID-00001', 'RID-00002'
-            └── <name>.yml                      # Output YML file, with pattern <vs_name|proj>.yml, e.g. 'vs_OCP4_cloudAppRouter_443_dc6.yml', 'eai-cdi-integrationsuite-aat.yml'
+        └── <tsr_no>                            # List of Folders, naming with <tsr_no>, e.g. 'dc6-cloud-ltm01', 'dc7-cloudnp-ltm01'
+            └── <device_name>                   # List of Folders, naming with <device_name>, e.g. 'RID-00001', 'RID-00002'
+            └── <service_type>+<vs_name>.yml    # Output YML file, with pattern <vs_name>.yml, e.g. 'highport+vs_OCP4_eai-cdi-integrationsuite-aat3_80_dc6.yml', 'https+vs_OCP4_cloudAppRouter_443_dc7.yml'
 ├── service                                     # Service Folder for Service module storing Ansible Variable Patterns
 ├── template                                    # Template Folder for YML Template of Ansible Variable
 ├── util                                        # Folder for Python module, util
@@ -116,8 +117,8 @@ device_name = 'dc7-cloudnp-ltm01'
 ```
 The Output Files with default are
 ```
-./output/prd/RID_00009/dc6-cloud-ltm01/vs_OCP4_cloudAppRouter_443_dc6.yml
-./output/tst/RID_00006/dc7-cloudnp-ltm01/eai-cdi-integrationsuite-aat.yml
+./output/prd/RID_00009/dc6-cloud-ltm01/highport+vs_OCP4_eai-cdi-integrationsuite-aat3_80_dc6.yml
+./output/tst/RID_00006/dc7-cloudnp-ltm01/https+vs_OCP4_cloudAppRouter_443_dc7.yml
 ```
 
 
