@@ -10,7 +10,7 @@ The program will perform below tasks
 `3.12`
 ## Python Version
 `3.12`
-## Tested Python Module Version
+## Tested Python Package Version
 ```
 Package            Version
 ------------------ ------------
