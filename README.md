@@ -8,6 +8,26 @@ The program will perform below tasks
 3. Commit related ssl cert file to Github if necessary
 ## Python Version
 `3.12`
+## Python Version
+`3.12`
+## Tested Python Module Version
+```
+Package            Version
+------------------ ------------
+numpy              1.26.2
+openpyxl           3.1.2
+pandas             2.1.4
+pip                23.3.2
+PyGithub           2.1.1
+PyJWT              2.8.0
+python-dateutil    2.8.2
+PyYAML             6.0.1
+requests           2.31.0
+ruamel.yaml        0.18.5
+ruamel.yaml.clib   0.2.8
+six                1.16.0
+urllib3            2.1.0
+```
 ## Quick Start
 1. Clone the project .zip file and extract to a folder, `{project_home}`
 2. Install python version `3.12` and Install the python module
