@@ -58,21 +58,50 @@ cd {project_home}
 python .\LTMTaskAutomate.py ltm_highport_nonprd.xlsx
 ```
 Sample Result
+
 ```
-> python .\LTMTaskAutomate.py ltm_highport_nonprd.xlsx
-2023-12-30 07:09:23 - root - INFO - Processing file: F:\My Documents\HA\F5Ansible\Dev\HA_LTMAutomate\ltm_highport_nonprd.xlsx
-2023-12-30 07:09:23 - root - INFO - Completed Manupulate Fields for record: 1, excel row: 0
-2023-12-30 07:09:23 - root - INFO - Completed Manupulate Fields for record: 1, excel row: 1
+#High Port
+> python .\LTMTaskAutomate.py .\ltm_highport_nonprd.xlsx
+2024-02-21 19:06:31 - root - INFO - Processing file: F:\My Documents\HA\F5Ansible\Dev\HA_LTMAutomate_xw\.\ltm_highport_nonprd.xlsx
+2024-02-21 19:06:31 - root - INFO - Completed Manupulate Fields for record: 1, excel row: 0
 ...
-2023-12-30 07:09:23 - root - INFO - Preparing YML Template ...
-2023-12-30 07:09:23 - root - INFO - Generating yml files for record 0 ...
-2023-12-30 07:09:24 - root - INFO - Generating yml files for record 5 ...
-2023-12-30 07:09:24 - root - INFO - Skip Generating yml files for record 14 ...
-2023-12-30 07:09:24 - root - INFO - Start Commit files ... ['./output/tst/RID-00005/dc7-cloudnp-ltm01/eai-cdi-integrationsuite-aat.yml', './output/tst/RID-00006/dc7-cloudnp-ltm01/eai-cdi-integrationsuite-aat2.yml']       
-2023-12-30 07:09:32 - root - INFO - Commit created successfully! id: ae04930aed4e9e85eacd8a8b3c98f6be6e7d2b5c
-2023-12-30 07:09:32 - root - INFO - Start Commit files ... ['LTM_Audit.csv']
-2023-12-30 07:09:39 - root - INFO - Commit created successfully! id: 43d4ea5be4c98d8ef4f3ed1a7527884fa52d9b34
+2024-02-21 19:06:31 - root - INFO - Completed Manupulate Fields for record: 1, excel row: 4
+2024-02-21 19:06:31 - root - INFO - Completed Manupulate Fields for record: 2, excel row: 5
+...
+2024-02-21 19:06:31 - root - INFO - Completed Manupulate Fields for record: 2, excel row: 13
+2024-02-21 19:06:31 - root - INFO - Completed Manupulate Fields for record: 3, excel row: 14
+...
+2024-02-21 19:06:31 - root - INFO - Completed Manupulate Fields for record: 3, excel row: 16
+2024-02-21 19:06:31 - root - INFO - Preparing YML Template ...
+2024-02-21 19:06:31 - root - INFO - Generating yml files for record 0 ...
+2024-02-21 19:06:31 - root - INFO - Generating yml files for record 5 ...
+2024-02-21 19:06:31 - root - INFO - Skip Generating yml files for record 14 ...
+2024-02-21 19:06:31 - root - INFO - Start Commit files ... ['./output/tst/RID-00005/dc7-cloudnp-ltm01/highport+vs_OCP4_hadev_eai-cdi-integrationsuite-aat_80_dc7.yml',
+...
+2024-02-21 19:06:40 - root - INFO - Commit created successfully! id: 96b22f87794334c7eb48f2265b1fbf0786efb6e9
+2024-02-21 19:06:40 - root - INFO - Start Commit files ...
+...
+2024-02-21 19:06:47 - root - INFO - Commit created successfully! id: 79ea079def782e9392fba9fe06b9e7d856f9f435
 ```
+
+```
+#HTTPS
+> python .\LTMTaskAutomate.py .\ltm_https_nonprd.xlsx
+2024-02-21 19:10:20 - root - INFO - Processing file: F:\My Documents\HA\F5Ansible\Dev\HA_LTMAutomate_xw\.\ltm_https_nonprd.xlsx
+2024-02-21 19:10:20 - root - INFO - Completed Manupulate Fields for record: 1, excel row: 0
+2024-02-21 19:10:20 - root - INFO - Completed Manupulate Fields for record: 1, excel row: 1
+2024-02-21 19:10:20 - root - INFO - Completed Manupulate Fields for record: 2, excel row: 2
+2024-02-21 19:10:20 - root - INFO - Completed Manupulate Fields for record: 2, excel row: 3
+2024-02-21 19:10:20 - root - INFO - Preparing YML Template ...
+2024-02-21 19:10:20 - root - INFO - Generating yml files for record 0 ...
+2024-02-21 19:10:21 - root - INFO - Generating yml files for record 2 ...
+2024-02-21 19:10:21 - root - INFO - Start Commit files ... ['./output/tst/RID-xxxxx/dc6-cloudnp-ltm01/https+vs_OCP4_cloudAppRouter_443_dc6.yml', './output/tst/RID-xxxxx/dc7-cloudnp-ltm01/https+vs_OCP4_cloudAppRouter_443_dc7.yml']
+2024-02-21 19:10:30 - root - INFO - Commit created successfully! id: 0011707820e0f86e535ced94cb79e3ad61ac87d9
+2024-02-21 19:10:30 - root - INFO - Start Commit files ...
+2024-02-21 19:10:37 - root - INFO - Commit created successfully! id: 8b2e86799d32c5aa9478b7dedddf3a20dc8b2566
+
+```
+
 ## Folder Structure
 ```
 .
