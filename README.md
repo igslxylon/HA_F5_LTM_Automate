@@ -8,8 +8,6 @@ The program will perform below tasks
 3. Commit related ssl cert file to Github if necessary
 ## Python Version
 `3.12`
-## Python Version
-`3.12`
 ## Tested Python Package Version
 ```
 Package            Version
