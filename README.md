@@ -40,9 +40,9 @@ pip install ruamel.yaml
 4. Generate a Github token, `{GITHUB_TOKEN}`
 5. Revise paramters in `config/LTMConfig.py`, replace the {GITHUB_REPOSITORY_NAME}, {GITHUB_TOKEN}
 ```
-REL_PATH_ServiceDCMapping = 'config/Service_DC_Mapping.csv'
+REL_PATH_LTMHighPortDomainVIPMapping = 'config/LTM_HighPort_Domain_VIP_Mapping.csv'
 REL_PATH_OUTPUT_DIR = './output'
-REL_PATH_OUTPUT_AUDIT_FILE = 'LTM_Audit.csv'
+REL_PATH_OUTPUT_AUDIT_FILE_PREFIX = 'LTM_Audit'
 REL_PATH_SSL_CERT_DIR = './ssl_cert'
 GITHUB_REPOSITORY_NAME = '{RepositoryName}'
 GITHUB_TOKEN = '{GITHUB_TOKEN}'
